@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CRUD API Interface</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Manage Items</h1>
+    <h3>Add Item</h3>
+    <form id="addItemForm">
+      <div class="form-group">
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" placeholder="Enter item name" required>
+      </div>
+      <button type="submit">Add Item</button>
+    </form>
+    <h3>Item List</h3>
+    <div id="itemsList"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
